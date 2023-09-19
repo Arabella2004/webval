@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    font-size: 14px;
+    min-height: 100vh;
+    width: 100%;
+    background: url(./valorant\ background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.links a:hover{
+    color: red;
+}
+/*-----------Navigation--------------*/
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+
+}
+
+/*-----------Card--------------*/
+.container {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 10fr;
+    grid-template-rows: 180px 1fr;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image {
+    position: relative;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./purple\ bg.png);
+    background-size: cover;
+}
+
+.card-image img {
+    max-width: 95%;
+    max-height: 95%;
+    transition: max-width 0.4s, max-height 0.4s;
+}
+
+.card:hover .card-image img {
+    max-width: 130%;
+    max-height: 130%;
+}
+
+.card:nth-child(2) .card-image {
+    background: url(./yellow\ bg.jpg);
+}
+
+.card:nth-child(3) .card-image {
+    background: url(./Jungle\ Mist.jpg);
+}
+
+.card:nth-child(4) .card-image {
+    background: url(./Sapphire.png)
+}
+
+.card:nth-child(5) .card-image {
+    background: url(./Crusta.png);
+}
+
+.card:nth-child(6) .card-image {
+    background: url(./Picked\ Bluewood.png);
+}
+
+.card:nth-child(7) .card-image {
+    background: url(./Crusta.png);
+}
+
+.card:nth-child(8) .card-image {
+    background: url(./Mirage.png);
+}
+
+.card:nth-child(9) .card-image {
+    background: url(./Tia\ maria.png);
+}
+
+.card:nth-child(10) .card-image {
+    background: url(./Sage\ green.png);
+}
+
+.card:nth-child(11) .card-image {
+    background: url(./Raze\ Orange.png);
+}
+
+.card:nth-child(12) .card-image {
+    background: url(./Sova\ BG.png);
+}
+
+.card:nth-child(13) .card-image {
+    background: url(./purple\ bg.png);
+}
+
+.card:nth-child(14) .card-image {
+    background: url(./Sova\ BG.png);
+}
+
+.card:nth-child(15) .card-image {
+    background: url(./Sage\ green.png);
+}
+
+.card:nth-child(16) .card-image {
+    background: url(./Japanese\ Maple.png);
+}
+
+.card:nth-child(17) .card-image {
+    background: url(./Crusta.png);
+}
+
+.card:nth-child(18) .card-image {
+    background: url(./yellow\ bg.jpg);
+}
+
+.card-body {
+    background: #fff;
+    padding: 20px 28px;
+}
+
+.card-body h2 {
+    font-size: 1.8em;
+    margin: 4px auto 12px;
+}
+
+.card-body p {
+    color: gray;
+    font-size: 1.1em;
+    line-height: 20px;
+    text-align: center;
+}
+
+.card-footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.card-footer .info {
+    font-size: 0.9em;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.card:nth-child(1) .card-footer {
+    background: #61457e ;
+}
+.card:nth-child(2) .card-footer {
+    background: #f2d700;
+}
+.card:nth-child(3) .card-footer {
+    background: #AAC9CE;
+}
+.card:nth-child(4) .card-footer {
+    background: #33539E;
+}
+.card:nth-child(5) .card-footer {
+    background: #FC7643;
+}
+.card:nth-child(6) .card-footer {
+    background: #273248;
+}
+.card:nth-child(7) .card-footer {
+    background: #FC7643;
+}
+.card:nth-child(8) .card-footer {
+    background: #1c2135;
+}
+.card:nth-child(9) .card-footer {
+    background: #d53e0f;
+}
+.card:nth-child(10) .card-footer {
+    background: #8ebba7;
+}
+.card:nth-child(11) .card-footer {
+    background: #c4661f ;
+}
+.card:nth-child(12) .card-footer {
+    background: #00235e;
+}
+.card:nth-child(13) .card-footer {
+    background: #61457e;
+}
+.card:nth-child(14) .card-footer {
+    background: #00235e;
+}
+.card:nth-child(15) .card-footer {
+    background: #8ebba7;
+}
+.card:nth-child(16) .card-footer {
+    background: #f30505;
+}
+.card:nth-child(17) .card-footer {
+    background: #FC7643;
+}
+.card:nth-child(18) .card-footer {
+    background: #f2d700;
+}
+
+@media screeen and (max-width: 600px)
+{
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .hero{
+        background-image: linear-gradient(#000e2e, #004f5a);
+    }
+}

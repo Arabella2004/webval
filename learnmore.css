@@ -1,0 +1,230 @@
+/*--HOME AGENTS--*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ece7e1;
+    cursor: default;
+    overflow-x: hidden;
+}
+.links a:hover{
+  color: red;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px 5%;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+  
+  /*-----------------------  Footer  -----------------------*/
+  
+  footer {
+    background-color: #111111;
+    color: #7c7e82;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    padding: 0 37% 0 37%;
+    font-size: 80%;
+  }
+  
+  footer span {
+    text-transform: uppercase;
+  }
+
+  /*-----------------------  Index-valorantIntro  -----------------------*/
+.valorantIntro {
+    height: 600px;
+    width: 100%;
+
+  }  
+  .valorantIntro h1 {
+    color: #0f1922;
+    text-transform: uppercase;
+    font-size: 500%;
+    font-family: VALORANT;
+  }
+  
+  .introColumn {
+    display: flex;
+    flex-flow: row;
+
+  }
+  
+  #intro {
+    margin-left:350px;
+  }
+  
+  .introLeft {
+    width: 20%;
+    margin-left: 350px;
+  }
+  
+  .introRight {
+    width: 10px;
+  }
+  
+
+  .introLeft h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: VALORANT;
+    
+  }
+  
+  .introLeft p {
+      color: #3e2723;
+      padding-bottom: 30px;
+      width: 50%;
+      margin-top: 20px;
+      border-bottom: solid 1px black;
+    
+  }
+  .introColumn {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  .introRight img {
+    height: 400px;
+    width: 700px;
+  }
+
+  
+  /*-----------------------  Index-agentsIntro  -----------------------*/
+  
+  .agentsIntro {
+    width: 100%;
+    background-color: #ff4654;
+    margin-bottom: -80px;
+  }
+  
+  .agentsColumn {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .agentsLeft {
+    width: 95%;
+    
+  }
+  
+  .agentsRight {
+    width: 55%;
+  }
+  
+  .agentsRight h1 {
+    font-size: 300%;
+    margin: 0 0 30px 0;
+    color: #ece7e1;
+    text-transform: uppercase;
+    font-family: VALORANT;
+  }
+  
+  .agentsRight h2 {
+    color: #ece7e1;
+    text-transform: uppercase;
+  }
+  
+  .agentsRight p {
+    color: #ece7e1;
+  }
+  
+  .agentsLeft img {
+    width: 700px;
+    height: 400px;
+  }
+  
+  .agentsSub {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  
+  .agentsRight a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 95%;
+    text-transform: uppercase;
+    color: #0f1923;
+    background-color: #ece7e1;
+    padding: 15px 60px;
+    border-radius: 5px;
+  }
+  
+  .agentsRight a:hover {
+    background-color: #0f1923;
+    color: #ece7e1;
+    transition: 0.5s;
+  }
+  
+  /*-----------------------  Index-mapsIntro  -----------------------*/
+  
+  .mapsIntro {
+    height: 500px;
+    width: 100%;
+    background-image: url(./mapintro.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+  
+  .mapsIntro h1 {
+    color: #0f1922;
+    text-transform: uppercase;
+    font-size: 300%;
+  }
+  
+  .mapsColumn {
+    display: flex;
+    flex-flow: row;
+    margin: 80px 0 0px 50px;
+  }
+  
+  .mapsLeft {
+    width: 20%;
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+  }
+  
+  .mapsLeft h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: VALORANT;
+  }
+  
+  .mapsLeft p {
+    color: #3e2723;
+    padding-bottom: 30px;
+  }
+
+  @media screeen and (max-width: 600px)
+  {
+      h1{
+          font-size: 36px;
+          line-height: 50px;
+      }
+      .hero{
+          background-image: linear-gradient(#000e2e, #004f5a);
+      }
+  }
